@@ -8,4 +8,8 @@ let animals = [
     "basalisk",
   ];
   
-let bListAnimals = // Your 'filter' code here.
+let bListAnimals = animals.filter(function(word){
+  return word[0] === 'b'
+})
+
+console.log(bListAnimals)
